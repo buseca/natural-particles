@@ -6,20 +6,20 @@ var imgW = 640
 var imgH = 480
 
 // MOSQUITO
-var particlesDensity = 168
+var particlesDensity = 518
 var particlesSize = 2
 var particlesSpeedX = 0.6
 var particlesSpeedY = 0.5
-var repositioningX = 12
-var repositioningY = 12
-var sensitiveness = 30
+var repositioningX = 28
+var repositioningY = 16
+var sensitiveness = 35
 
 
 var particels = []
 var particelsCopy = []
 
 function preload(){
-  img = loadImage('mosquito.png')  
+  img = loadImage('bugs.png')  
 }
 
 function calcInitialPositions(){
@@ -55,7 +55,7 @@ function setup() {
 function draw() {
 
   if (mouseX > 10 && mouseX < (sw-10) && mouseY > 10 && mouseY < (sh-10)) {
-    background(226, 142, 180, 200)
+    background(226, 142, 180, 10)
     for (var i = 0; i < particelsCopy.length; i++) {
       
       if(mouseIsPressed){
