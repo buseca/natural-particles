@@ -7,12 +7,12 @@ var imgH = 480
 
 // MOSQUITO
 var particlesDensity = 564
-var particlesSize = 2.5
+var particlesSize = 4
 var particlesSpeedX = 0.08
 var particlesSpeedY = 0.08
 var repositioningX = 4
 var repositioningY = 4
-var sensitiveness = 100
+var sensitiveness = 75
 
 
 var particels = []
@@ -39,7 +39,7 @@ function calcInitialPositions(){
 
 function setup() {
   createCanvas(sw,sh)
-  fill(68,54,54,120)
+  fill(68,54,54,220)
   noStroke()
   background(226, 142, 180, 255)
   frameRate(50)

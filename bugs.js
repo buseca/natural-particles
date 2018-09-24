@@ -12,7 +12,7 @@ var particlesSpeedX = 0.6
 var particlesSpeedY = 0.5
 var repositioningX = 28
 var repositioningY = 16
-var sensitiveness = 35
+var sensitiveness = 80
 
 
 var particels = []
@@ -67,10 +67,10 @@ function draw() {
         var mouseDistX = (particelsCopy[i].x - mouseX)
         var mouseDistY = (particelsCopy[i].y - mouseY)
         var mouseDist = Math.sqrt(mouseDistX*mouseDistX + mouseDistY*mouseDistY) 
-        particelsCopy[i].x = particelsCopy[i].x + cos(random(Math.PI)) * particlesSpeedX / ( Math.sqrt(mouseDist) / sensitiveness)
-        particelsCopy[i].y = particelsCopy[i].y + cos(random(Math.PI)) * particlesSpeedY / ( Math.sqrt(mouseDist) / sensitiveness)
+        particelsCopy[i].x = particelsCopy[i].x + cos(random(Math.PI)) * particlesSpeedX / ( Math.sqrt(mouseDist*10) / sensitiveness)
+        particelsCopy[i].y = particelsCopy[i].y + cos(random(Math.PI)) * particlesSpeedY / ( Math.sqrt(mouseDist*10) / sensitiveness)
       }
-      ellipse(particelsCopy[i].x - particlesSize/2,particelsCopy[i].y - particlesSize/2,particlesSize,particlesSize)
+      ellipse(particelsCopy[i].x - particlesSize/2, particelsCopy[i].y - particlesSize/2, particlesSize,particlesSize)
 
     };
   }
