@@ -28,7 +28,7 @@ function calcInitialPositions(){
   for (var i = 0; i < pixelLength; i+= particlesDensity) {
     if (pixels[i] == 0){
       var x_ = ((i / 4 / d) % (sw)) 
-      var y_ = (i / 4 / d / sw / 2)
+      var y_ = (i / 4 / d / sw / d)
       var coords_ = {x:x_,y:y_}
       particels.push(coords_)
     }
