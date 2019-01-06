@@ -2,7 +2,7 @@
 var img
 var sw = window.innerWidth
 var sh = window.innerHeight
-var imgW = 640/1
+var imgW = 640/0.5
 var imgH = 480/2
 
 // MOSQUITO
