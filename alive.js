@@ -2,7 +2,7 @@
 var img
 var sw = window.innerWidth
 var sh = window.innerHeight
-var imgW = 640/0.5
+var imgW = 640
 var imgH = 480/2
 
 // MOSQUITO
@@ -14,7 +14,7 @@ var repositioningX = 4
 var repositioningY = 4
 var sensitiveness = 50
 
-var fillR = 168
+var fillR = 198
 var fillG = 154
 var fillB = 154
 var fillA = 240
