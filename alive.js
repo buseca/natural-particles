@@ -2,31 +2,31 @@
 var img
 var sw = window.innerWidth
 var sh = window.innerHeight
-var imgW = 640
-var imgH = 480
+var imgW = 640/1.2
+var imgH = 480/2
 
 // MOSQUITO
-var particlesDensity = 564
-var particlesSize = 4
-var particlesSpeedX = 0.08
-var particlesSpeedY = 0.08
+var particlesDensity = 464
+var particlesSize = 12
+var particlesSpeedX = 0.15
+var particlesSpeedY = 0.15
 var repositioningX = 4
 var repositioningY = 4
-var sensitiveness = 75
+var sensitiveness = 50
 
-var fillR = 68
-var fillG = 54
-var fillB = 54
-var fillA = 120
+var fillR = 168
+var fillG = 154
+var fillB = 154
+var fillA = 240
 
-var initBgR = 226
-var initBgG = 142
-var initBgB = 180
+var initBgR = 6
+var initBgG = 125
+var initBgB = 125
 var initBgA = 255
 
-var BgR = 226
-var BgG = 142
-var BgB = 180
+var BgR = 6
+var BgG = 125
+var BgB = 125
 var BgA = 255
 var bg = [BgR, BgG, BgB, BgA]
 
@@ -35,7 +35,7 @@ var particlesCurrent = []
 
 function preload(){
   img = loadImage('alive.png')  
-  bg = loadImage("bg3.jpg");
+  // bg = loadImage("bg3.jpg");
 }
 
 
