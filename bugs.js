@@ -8,7 +8,6 @@ var imgH = 480
 var sw = window.innerWidth
 var sh = window.innerHeight
 
-
 var particlesDensity = 518
 var particlesSize = 3
 var particlesSpeedX = 0.6
