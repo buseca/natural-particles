@@ -12,7 +12,7 @@ var particlesSpeedX = 0.20
 var particlesSpeedY = 0.20
 var repositioningX = 4
 var repositioningY = 4
-var sensitiveness = 50
+var sensitiveness = 70
 
 var fillR = 198
 var fillG = 154
