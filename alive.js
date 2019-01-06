@@ -8,8 +8,8 @@ var imgH = 480/2
 // MOSQUITO
 var particlesDensity = 464
 var particlesSize = 12
-var particlesSpeedX = 0.15
-var particlesSpeedY = 0.15
+var particlesSpeedX = 0.20
+var particlesSpeedY = 0.20
 var repositioningX = 4
 var repositioningY = 4
 var sensitiveness = 50
