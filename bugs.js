@@ -23,9 +23,9 @@ var fillB = 54
 var fillA = 120
 
 // rgba value for the initial background
-var initBgR = 226
-var initBgG = 142
-var initBgB = 180
+var initBgR = 125
+var initBgG = 150
+var initBgB = 150
 var initBgA = 255
 
 // rgba for the background after the sketch activation

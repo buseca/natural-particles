@@ -3,17 +3,29 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: arial, helvetica;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  padding: 0px;
+}
+p {
+  float: left;
+  padding: 20px;
+  font-size: 13px;
 }
 .links {
-  position: absolute;
-  top: 10;
-  right: 10;
-  background-color: rgba(255,255,255,0.5);
+  float: right;
+  margin-top: 0;
+  margin-right: 10;
   padding: 20px;
 }
 a {
   color: black;
   font-size: 16px;
   font-weight: bold;
-  font-family: arial, helvetica;
 }
