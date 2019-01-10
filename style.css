@@ -10,13 +10,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.15);
   padding: 0px;
 }
 p {
   float: left;
   padding: 20px;
   font-size: 13px;
+  font-weight: bold;
+  color: #222;
 }
 .links {
   float: right;
@@ -28,4 +30,6 @@ a {
   color: black;
   font-size: 16px;
   font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
 }
