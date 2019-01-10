@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.15);
+  background-color: rgba(255,255,255,0.35);
   padding: 0px;
 }
 p {
@@ -32,4 +32,9 @@ a {
   font-weight: bold;
   margin-left: 20px;
   padding: 10px;
+}
+a.selected {
+  opacity: 0.5;
+  text-decoration: none;
+  cursor: none;
 }
